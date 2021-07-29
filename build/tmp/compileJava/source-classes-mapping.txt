@@ -1,5 +1,5 @@
-models/DataInjection.java
- models.DataInjection
+interactions/IngresoCrearPersona.java
+ interactions.IngresoCrearPersona
 interactions/OpenTheBrowser.java
  interactions.OpenTheBrowser
 questions/VerificarLogin.java
@@ -14,8 +14,8 @@ ui/PaginaLogin.java
  ui.PaginaLogin
 ui/PaginaInicioUsario.java
  ui.PaginaInicioUsario
-interactions/IngresoCrearPersona.java
- interactions.IngresoCrearPersona
+models/DataInjection.java
+ models.DataInjection
 ui/FormularioCrearPersona.java
  ui.FormularioCrearPersona
 task/RegistroUsuarios.java
