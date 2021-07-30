@@ -1,9 +1,9 @@
-interactions/IngresoCrearPersona.java
- interactions.IngresoCrearPersona
+ui/FormularioCrearPersona.java
+ ui.FormularioCrearPersona
 interactions/OpenTheBrowser.java
  interactions.OpenTheBrowser
-questions/VerificarLogin.java
- questions.VerificarLogin
+questions/VerificarRegistro.java
+ questions.VerificarRegistro
 utils/Constantes.java
  utils.Constantes
 models/DatosLogin.java
@@ -14,9 +14,11 @@ ui/PaginaLogin.java
  ui.PaginaLogin
 ui/PaginaInicioUsario.java
  ui.PaginaInicioUsario
+interactions/IngresoCrearPersona.java
+ interactions.IngresoCrearPersona
+questions/VerificarLogin.java
+ questions.VerificarLogin
 models/DataInjection.java
  models.DataInjection
-ui/FormularioCrearPersona.java
- ui.FormularioCrearPersona
 task/RegistroUsuarios.java
  task.RegistroUsuarios

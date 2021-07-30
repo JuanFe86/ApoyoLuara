@@ -13,7 +13,7 @@ Característica: Registro de usuarios nuevos
       | usuario   | contraseña   |
       | <usuario> | <contraseña> |
     Cuando el ingreso todos los datos
-    Entonces el puede ver que el registro fue creado
+    Entonces el puede ver que el registro Terminado
 
     Ejemplos:
       | usuario    | contraseña |
