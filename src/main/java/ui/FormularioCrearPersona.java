@@ -92,4 +92,5 @@ public class FormularioCrearPersona {
     public static final Target BTN_INGRESAR_REPORTO = Target.the("").locatedBy("//body/div[@id='menu-isReported']/div[2]/ul[1]/li[2]");
     public static final Target BTN_GUARDAR = Target.the("").locatedBy("//span[contains(text(),'Guardar')]");
     public static final Target LBL_MENSAJE = Target.the("").locatedBy("//h2[contains(text(),'Terminado')]");
+
 }

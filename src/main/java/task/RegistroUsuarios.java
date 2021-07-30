@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.JavaScriptClick;
+import net.serenitybdd.screenplay.actions.Scroll;
 import ui.FormularioCrearPersona;
 
 import static ui.FormularioCrearPersona.*;
@@ -32,9 +33,9 @@ public class RegistroUsuarios implements Task {
                 JavaScriptClick.on(BTN_DIA_CALENDARIO),
                 JavaScriptClick.on(BTN_GENERO),
                 JavaScriptClick.on(BTN_ELEGIR_GENERO),
-                Enter.theValue(dataInjection.getTelefono()).into(TXT_TELEFONO),
-                Enter.theValue(dataInjection.getCelular()).into(TXT_CELULAR),
-                Enter.theValue(dataInjection.getOtro_celular()).into(TXT_OTRO_CELULAR),
+                Enter.theValue("4444444").into(TXT_TELEFONO),
+                Enter.theValue("3000000000").into(TXT_CELULAR),
+                Enter.theValue("3000000000").into(TXT_OTRO_CELULAR),
                 JavaScriptClick.on(BTN_ESTADO_CIVIL),
                 JavaScriptClick.on(BTN_ELEGIR_ESTADO_CIVIL),
                 JavaScriptClick.on(BTN_COMUNA),
@@ -79,6 +80,7 @@ public class RegistroUsuarios implements Task {
                 JavaScriptClick.on(BTN_ELEGIR_CONDICION),
                 Enter.theValue("1").into(TXT_FICHA),
                 Enter.theValue("3.1").into(TXT_PUNTAJE),
+                Scroll.to(BTN_GUARDAR),
                 JavaScriptClick.on(BTN_CARNET),
                 JavaScriptClick.on(BTN_ELEGIR_CARNET),
                 JavaScriptClick.on(BTN_GRUPO_SANGUINEO),
@@ -103,24 +105,15 @@ public class RegistroUsuarios implements Task {
                 JavaScriptClick.on(BTN_RESPIRAR),
                 JavaScriptClick.on(BTN_INGRESAR_RESPIRAR),
                 JavaScriptClick.on(BTN_REPORTO),
-                JavaScriptClick.on(BTN_INGRESAR_REPORTO)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                JavaScriptClick.on(BTN_INGRESAR_REPORTO),
+                JavaScriptClick.on(BTN_GUARDAR)
 
         );
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
